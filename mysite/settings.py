@@ -25,7 +25,7 @@ SECRET_KEY = '$q@v@b5az5x00mkfg4%_qu0xpjj4y@i26cv59mrpfk$jl46+8v'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com', 'shapehon.pythonanywhere.com']
 
 
 # Application definition
