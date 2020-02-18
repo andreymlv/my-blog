@@ -1,0 +1,38 @@
+
+.page-header {
+    background-color: gold;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: white;
+    font-size: 36pt;
+    margin-bottom: auto;
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 40px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto Slab', serif;
+}
+
+h2, h3, h4 {
+    margin-top: 20px;
+}
+
+.date {
+    color: gray;
+}
+
+.post {
+    margin-bottom: 70px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.post h2 a, .post h2 a:visited {
+    color: black;
+}

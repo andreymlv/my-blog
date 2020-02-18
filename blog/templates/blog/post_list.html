@@ -1,21 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>посты</title>
-  </head>
-  <body>
-    <div>
-      <h1><a href="/">блог</a></h1>
-    </div>
+{% extends 'blog/base.html' %} {% block content %} {% for post in posts %}
+<div class="post">
+  <h2><a href="">{{ post.title }}</a></h2>
 
-    {% for post in posts %}
-    <div>
-      <h2><a href="">{{ post.title }}</a></h2>
-      <p>опубликовано: {{ post.published_date }}</p>
-      <p>{{ post.text|linebreaksbr }}</p>
-    </div>
-    {% endfor %}
-  </body>
-</html>
+  <div class="date">
+    <p>опубликовано: {{ post.published_date }}</p>
+  </div>
+
+  <p>{{ post.text|linebreaksbr }}</p>
+</div>
+{% endfor %} {% endblock %}
