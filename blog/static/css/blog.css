@@ -1,55 +1,70 @@
-
 .page-header {
-    background-color: gold;
-    margin-top: 0;
-    padding: 20px 20px 20px 40px;
+  background-color: gold;
+  margin-top: 0;
+  padding: 20px 20px 20px 40px;
 }
 
-.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    font-family: 'Roboto Slab', serif;
-    color: white;
-    font-size: 36pt;
-    margin-bottom: auto;
-    text-decoration: none;
+.page-header h1,
+.page-header h1 a,
+.page-header h1 a:visited,
+.page-header h1 a:active {
+  font-family: "Roboto Slab", serif;
+  color: white;
+  font-size: 36pt;
+  margin-bottom: auto;
+  text-decoration: none;
 }
 
 .content {
-    margin-left: 40px;
+  margin-left: 40px;
 }
 
-h1, h2, h3, h4 {
-    font-family: 'Roboto Slab', serif;
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Roboto Slab", serif;
 }
 
-h2, h3, h4 {
-    margin-top: 20px;
+h2,
+h3,
+h4 {
+  margin-top: 20px;
 }
 
 .date {
-    color: gray;
+  color: gray;
 }
 
 .save {
-    float: right;
+  float: right;
 }
 
-.post-form textarea, .post-form input {
-    width: 100%;
+.post-form textarea,
+.post-form input {
+  width: 100%;
 }
 
-.top-menu, .top-menu:hover, .top-menu:visited {
-    font-family: 'Roboto Slab', serif;
-    color: white;
-    float: right;
-    font-size: 36pt;
-    margin-left: 20px;
+.top-menu,
+.top-menu:hover,
+.top-menu:visited {
+  font-family: "Roboto Slab", serif;
+  color: white;
+  float: right;
+  font-size: 36pt;
+  margin-left: 20px;
 }
 
 .post {
-    margin-bottom: 70px;
-    font-family: 'Roboto', sans-serif;
+  margin-bottom: 70px;
+  font-family: "Roboto", sans-serif;
 }
 
-.post h2 a, .post h2 a:visited {
-    color: black;
+.post h2 a,
+.post h2 a:visited {
+  color: black;
+}
+
+.comment {
+  margin: 20px 0px 20px 20px;
 }
