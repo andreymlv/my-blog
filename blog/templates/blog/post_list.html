@@ -4,6 +4,9 @@
 
 {% for post in posts %}
 <div class="post">
+
+  {% if post.published_date %}
+
   <h2><a href=" {% url 'post_detail' pk=post.pk %} ">{{ post.title }}</a></h2>
 
   <div class="date">
@@ -12,5 +15,6 @@
 
   <p>{{ post.text|linebreaksbr }}</p>
 </div>
+  {% endif %}
 {% endfor %}
 {% endblock %}
