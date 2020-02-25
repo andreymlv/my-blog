@@ -28,13 +28,16 @@
       <a href="{% url 'post_draft_list' %}" class="top-menu"
         ><h1>черновики</h1></a
       >
+      <p class="top-menu">привет, {{ user.username }} <small>(<a href="{% url 'logout' %}">выйти</a>)</small></p>
+      {% else %}
+      <a href="{% url 'login' %}" class="top-menu">♥</a>
       {% endif %}
       <h1><a href="/">блог</a></h1>
     </div>
 
     <div class="content container">
       <div class="row">
-        <div class="col-md-16">
+        <div class="col-md-8">
           {% block content %} {% endblock %}
         </div>
       </div>
